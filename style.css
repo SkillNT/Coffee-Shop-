@@ -1,0 +1,32 @@
+/* UNIVERSAL CSS */
+@import "navbar.css";
+@import "container.css";
+@import "content.css";
+@import "buttons.css";
+
+/* ABOUT US */
+@import "/Assets/Styles/about/content.css";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    font-family: sans-serif;
+}
+
+h1{
+    color: #efe5a7;
+}
+
+::-webkit-scrollbar {
+    background: #9c8c266c;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 5px;
+}

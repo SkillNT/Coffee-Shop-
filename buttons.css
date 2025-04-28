@@ -1,0 +1,47 @@
+.buy-1 {
+    padding: 5px;
+    background: transparent;
+    border: 2px solid #e0d06e;
+    color: #e0d06e;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    z-index: 3;
+}
+.buy-1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    background: #e0d06e;
+    z-index: 0;
+    transition: .2s ease-in-out;
+    border-radius: 10px;
+}
+.buy-1:hover::after {
+    width: 100%;
+    transform: scale(1.05);
+    z-index: -1;
+}
+.buy-1:hover {
+    color: #33322e;
+}
+.buy-1:active {
+    transform: scale(1.06);
+}
+
+
+/* BUTTON 2 */
+.buy-2 {
+    padding: 5px;
+    border-radius: 5px;
+    background: transparent;
+    color: #f0eedc;
+    border: 1px solid #f0eedc;
+    cursor: pointer;
+}
+.buy-2:hover {
+    background: #f0eedc91;
+}
